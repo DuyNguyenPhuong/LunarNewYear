@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2022</title>
+	<style>
+		.w1{border: #ffc92a 8px double;color: #edb854;text-align: center;}
+		label{float: left;width: 50%;}
+		.co:hover{font-size: 0px;border: unset;}
+		
+	</style>
+</head>
+<body style="font-family: UTM ThuPhap Thien An ;background: #810103;margin: 0;">
+<div style="height: 100px;" class="w1"><h1>&#9752 CHÚC MỪNG NĂM MỚI &#9752</h1></div>
+<div class="w1" style="width: 20%; font-size: 30px;float: left;box-sizing: border-box;">
+	<div>&#9813</div>
+	<div>Sang</div> 
+	<div>hết</div>
+	<div>cả</div> 
+	<div>hồn</div>
+</div>
+<div class="w1" style="float: left; box-sizing: border-box;width: 60%;font-family: Forte;padding-top: 5px;">
+	<form name="f1">
+		<div>
+			<label>Họ và tên: </label><input type="text" name="ten" placeholder="Mời nhập họ và tên">
+		</div>
+		<div>
+			<label>Ngày sinh: </label><input type="number" name="ngay" placeholder="Mời nhập ngày sinh">
+		</div>
+		<div>
+			<label>Tháng sinh: </label><input type="number" name="thang" placeholder="Mời nhập tháng sinh">
+		</div>
+		<div>
+			<label>Giới tính: </label><input checked type="radio" name="0">Nam <input type="radio" name="0">Nữ <input type="radio" name="0">Khác
+		</div>
+		<div>
+			<label>Chọn 1 số bất kì mà bạn nghĩ sẽ đem lại cho bạn may mắn nhé</label><input type="number" placeholder="Lưu ý chỉ từ 1 đến 11 thôi nhé" name="lucky">
+		</div>
+		<div>
+			<label>Tết này bạn muốn được mình lì xì không? </label> 
+			<div style="float: left;box-sizing: border-box;" class="co w1">
+				<a href="" style="color: #edb854;text-decoration: unset;" class="co">&#9744Có chứ</a>
+			</div>
+			<div style="float: left;box-sizing: border-box;" class="w1">
+				<input type="checkbox" name="">Không nha</a>
+			</div>
+		</div>
+		<div>
+			<label>Tết này bạn muốn lì xì cho mình không? </label> 
+			<div style="float: left;box-sizing: border-box;" class="w1">
+				<input type="checkbox" name="">Có chứ</a>
+			</div>
+			<div style="float: left;box-sizing: border-box;" class="co w1">
+				<a href="" style="color: #edb854;text-decoration: unset;" class="co">&#9744Không nha</a>
+			</div>
+		</div>
+		<div>
+			<label>Viết điều ước của bạn vào đây nhé biết đâu thành sự thật:</label><textarea style="width: 60%;height: 130px;" placeholder="Viết điều ước của bạn vô đây &#9829"></textarea>
+		</div>
+		<div style="float: left;box-sizing: border-box;width: 100%;padding-right: 95%;">
+			<input type="button" value="Gửi đi" name="" onclick="xuli()">
+		</div>
+	</form>
+</div>
+<div class="w1" style="width: 20%; font-size: 30px;float: left;box-sizing: border-box;">
+	<div>&#9812</div>
+	<div>Xôm</div> 
+	<div>hết</div>
+	<div>cả</div> 
+	<div>làng</div>
+</div>
+<script>
+	function xuli() {
+		alert("Chào " + (f1.ten.value)+ "!!! Bấm ok để tiếp tục nhé")
+		let a = eval(f1.ngay.value);
+		let b = eval(f1.thang.value);
+		if((a>=20 && a<=31 && b==1) || (a>=1 && a<=18 && b==2)) {
+			alert("Những người thuộc chòm sao Bảo Bình sẽ có năm mới như thế nào? Tạm biệt 2021, dự đoán cung hoàng đạo năm 2022 cho thấy đây là một năm đầy tuyệt vời với Bảo Bình. Sẽ có một số việc mới phát sinh và đòi hỏi bạn cần tập trung để giải quyết vấn đề. Những điều này thường mang ý nghĩa lâu dài, đòi hỏi tính cam kết cao, chẳng hạn như việc kết hôn, sinh con, khởi nghiệp, mua căn nhà đầu tiên hoặc bắt đầu học cao học. Bạn cũng sẽ có cơ hội trải nghiệm tình yêu và sự lãng mạn trong nửa cuối năm 2022. Theo đó, ngày 5 tháng 3 sẽ là một ngày đặc biệt may mắn đối với bạn. Bạn sẽ có cơ hội có được một tình yêu mới hoặc cảm thấy rung rinh với một ai đó ngay từ lần đầu tiên gặp mặt.")
+		} else if((a>=19 && a<=29 && b==2) || (a>=1 && a<=20 && b==3)) {
+			alert("Nhìn chung, 2022 không phải là một năm tồi tệ với Song Ngư. Thậm chí, theo các nhà chiêm tinh học dự đoán về 12 cung hoàng đạo năm 2022 thì Song Ngư đang trên đà bước vào năm tài chính tốt nhất trong thập kỷ – có thể là trong cả cuộc đời của bạn. Trong năm 2022, bạn sẽ có cơ hội lựa chọn thay đổi một nghề nghiệp mới. Bên cạnh đó, sức khỏe của bạn sẽ được cải thiện. Và đến cuối năm, bạn sẽ cảm thấy khỏe mạnh hơn rất nhiều, cả về mặt sức khỏe thể chất lẫn sức khỏe tinh thần. Ngày tốt nhất của Song Ngư để tìm kiếm tình yêu hoặc đưa ra một quyết định gì đó quan trọng sẽ là ngày 30 tháng 4, vì vào ngày đó, sao Mộc và sao Kim sẽ gặp nhau lần đầu tiên sau một thập kỷ. Với những cô nàng hoặc anh chàng Song Ngư đã có một nửa cho riêng mình thì đây chính là thời điểm bạn nên sống chậm lại và dành toàn bộ sự quan tâm của mình cho người ấy.")
+		} else if((a>=21 && a<=31 && b==3) || (a>=1 && a<=20 && b==4)) {
+			alert("Năm 2022 liệu có phải là một năm huy hoàng rực rỡ đối với Bạch Dương? Theo dự đoán 12 cung hoàng đạo năm 2022, đời sống nội tâm của những cô nàng và anh chàng Bạch Dương sẽ trở nên phong phú hơn rất nhiều. Kết thúc năm 2011, Bạch Dương sẽ có nhiều cơ hội để bắt đầu một chu kỳ phát triển mới. Bạn sẽ có nhiều thời gian hơn để khám phá chính nội tâm của mình, giải mã được những suy nghĩ, khúc mắc của bản thân,… Ngoài ra, năm 2022 cũng là lúc Bạch Dương có thể nghĩ đến việc tham gia các công việc tình nguyện vì với Bạch Dương bây giờ, càng cho đi sẽ càng nhận lại được nhiều hơn. Đặc biệt, một tin vui khác dành cho Bạch Dương chính là trong năm 2022, bạn có thể gặp gỡ những người có vị trí cao, nhiều kinh nghiệm trong xã hội và có thể tạo ra những mối liên hệ tuyệt vời. Nếu bạn đang độc thân, hãy nghiêm túc xem xét những người mà bạn gặp gỡ ngay cả khi bạn không hoàn toàn bị thu hút trong lần gặp đầu tiên bởi vì theo dự đoán cung hoàng đạo năm 2022 thì Bạch Dương sẽ có nhiều cơ hội gặp được tình yêu đích thực của mình.")
+		} else if((a>=21 && a<=30 && b==4) || (a>=1 && a<=20 && b==5)) {
+			alert("Dự đoán 12 cung hoàng đạo năm 2022, đây sẽ là một năm đầy thú vị với những người thuộc chòm sao Kim Ngưu. Bằng một cách nào đó, bạn bỗng trở thành hình mẫu lý tưởng của rất nhiều người và mọi người luôn cố gắng để trở nên giống bạn hơn. Điều này khiến bạn cảm thấy tự tin vào chính mình và có tâm trạng dễ chịu hơn bao giờ hết. Hơn nữa, với Kim Ngưu trong năm 2022 thì bạn càng kết nối với mọi người thì bạn sẽ càng phát triển hơn, đặc biệt là trong khoảng 12 tháng 4 – thời điểm sao Mộc hợp với sao Hải Vương. Ngoài ra, bạn cũng có cơ hội được gặp một người mới vào khoảng ngày 27 tháng 8. Nếu họ đang độc thân, đây chính là người bạn đời lý tưởng của bạn, mang đến cho bạn một cuộc tình vừa lãng mạn nhưng cũng vô cùng nghiêm túc.")
+		} else if((a>=21 && a<=31 && b==5) || (a>=1 && a<=21 && b==6)) {
+			alert("2022 sẽ là một năm thuận lợi cho đường công danh sự nghiệp của Song Tử với vô số cơ hội nghề nghiệp mà bạn từng mơ ước. Dự đoán cung hoàng đạo năm 2022 cho thấy, khoảng từ ngày 28 tháng 12 năm 2021 đến ngày 10 tháng 5 năm 2022 là giai đoạn sự nghiệp của Song Tử ở đỉnh cao huy hoàng nhất. Đặc biệt, Song Tử nên chú ý đến ngày 2 tháng 3 vì đây là một ngày quan trọng, có thể đánh dấu một bước chuyển mình mới của chòm sao Song Tử. Sau ngày 10 tháng 5, Song Tử vẫn còn cơ hội để xây dựng và phát triển sự nghiệp vào khoảng từ ngày 27 tháng 10 đến ngày 20 tháng 12. Từ ngày 10 tháng 5 đến ngày 27 tháng 10, bạn sẽ có nhiều thời gian hơn cho tình yêu và các mối quan hệ cá nhân của mình. Cuộc sống riêng tư của bạn cũng có nhiều sự thay đổi theo chiều hướng tích cực, khi bạn có thể thực hiện ước mơ mà bạn mong muốn đạt được từ lâu. Một lưu ý nhỏ cho Song Tử chính là hãy dành thời gian nghỉ ngơi để thư giãn với bạn bè vào cuối tuần hoặc ít nhất hãy ăn tối cùng họ. Bạn sẽ được tái tạo năng lượng bằng chính những khoảnh khắc ở bên cạnh những người thân yêu của mình đấy.")
+		} else if((a>=22 && a<=30 && b==6) || (a>=1 && a<=22 && b==7)) {
+			alert("Một năm hạnh phúc đang chờ đón Cự Giải trong năm 2022 này! Xin chúc mừng hội-những-người-thuộc-cung-Cự-Giải vì dự đoán 12 cung hoàng đạo năm 2022 cho thấy, đây sẽ là một năm với hàng loạt những điều tuyệt vời sắp xảy đến với bạn. Sự nghiệp của bạn sẽ vô cùng thăng hoa vào ngày 31 tháng 3. Và không chỉ vậy, trong khoảng thời gian này, sức khỏe, tinh thần, các mối quan hệ của bạn cũng được cải thiện đáng kể. Vào khoảng từ ngày 17 tháng 7 đến ngày 11 tháng 8 là thời điểm thích hợp để Cự Giải có thể tập trung chăm chút ngoại hình của bản thân, thử một kiểu tóc mới hoặc mua sắm một vài bộ quần áo mới. Thời điểm này, trong mắt mọi người thì Cự Giải sẽ trở nên quyến rũ hơn bao giờ hết và ít ai có thể cưỡng lại bạn. Bạn có thể thử bắt đầu một mối quan hệ mới hoặc tỏ tình với người mà bạn thầm thương trộm nhớ đấy nhé.")
+		} else if((a>=23 && a<=31 && b==7) || (a>=1 && a<=22 && b==8)) {
+			alert("Tài chính của Sư Tử trong năm 2022 sẽ vô cùng thăng hoa. Với dự đoán 12 cung hoàng đạo năm 2022, Sư Tử sẽ cảm thấy đặc biệt hào hứng bởi sẽ có nhiều dấu hiệu tích cực và lạc quan liên quan đến sự nghiệp và tài chính của bạn, đặc biệt là vào cột mốc ngày 2 tháng 3. Tuy nhiên… khi nhắc đến chuyện tình cảm vì có lẽ Sư Tử cần phải nỗ lực nhiều hơn cho tình cảm của mình bởi năm 2022 không phải là một năm thuận lợi với Sư Tử trong chuyện tình cảm. Tuy nhiên, bạn không cần quá lo lắng vì từ ngày 23 tháng 11, mọi vấn đề trong chuyện tình cảm của bạn sẽ nhanh chóng được hóa giải mà thôi.")
+		} else if((a>=23 && a<=31 && b==8) || (a>=1 && a<=22 && b==9)) {
+			alert("Hai năm qua có thể đã mang đến cho Xử Nữ nhiều trải nghiệm không mấy vui vẻ do ảnh hưởng của đại dịch. Tuy nhiên, theo chiêm tinh học và dự đoán 12 cung hoàng đạo năm 2022, những điều tồi tệ nhất với Xử Nữ gần như đã kết thúc. Năm mới, Xử Nữ sẽ có nhiều tin vui trong tình yêu và cả sự nghiệp. Nếu đầu tư cho máy móc, thiết bị mới hoặc cho một khóa học kỹ năng mới, bạn có cơ hội đạt được đỉnh cao trong sự nghiệp hoặc ít nhất có thể cải thiện hiệu quả trong công việc, giúp bạn làm việc năng suất hơn. Khoảng nửa cuối năm 2022, sự nghiệp của bạn sẽ ngày càng đạt được nhiều thành công hơn. Hãy chuẩn bị lên dây cót để làm việc ngay từ hôm nay bạn nhé! Về mặt tình cảm, Xử Nữ có thể kết thúc tình trạng độc thân của mình hoặc phát triển thêm một bước tiến mới cho mối quan hệ này trong khoảng từ ngày 24 tháng 1 đến ngày 5 tháng 3. Đây sẽ là thời điểm cực kỳ thăng hoa trong tình yêu của những người có chòm sao Xử Nữ.")
+		} else if((a>=23 && a<=30 && b==9) || (a>=1 && a<=23 && b==10)) {
+			alert("Với dự đoán 12 cung hoàng đạo năm 2022, sự nghiệp của Thiên Bình sẽ vô cùng thuận lợi trong khoảng thời gian đầu năm. Và ngày 12 tháng 4 sẽ là một ngày đặc biệt với Thiên Bình khi cả sự nghiệp và chuyện tình duyên của bạn đều vô cùng suôn sẻ. Tuy nhiên, vào cuối năm, Thiên Bình có thể gặp một chút khó khăn gây cản trở công việc của bạn. Bạn có thể gặp rắc rối với những người làm chung với mình, chẳng hạn như sếp hoặc một người đồng nghiệp mới. Lời khuyên cho Thiên Bình lúc này chính là giữ cái đầu lạnh để có thể tránh xa mọi cuộc tranh cãi bạn nhé!")
+		} else if((a>=24 && a<=31 && b==10) || (a>=1 && a<=22 && b==11)) {
+			alert("2022 của Bọ Cạp sẽ là một năm đầy thăng trầm. Thế nhưng đừng quá lo lắng vì chung quy đây vẫn là một năm tương đối tốt với bạn. Từ ngày 28 tháng 12 năm 2021 đến ngày 10 tháng 5 năm 2022 là khoảng thời gian tuyệt vời nhất năm. Bạn sẽ có rất nhiều niềm vui cùng xảy trong thời điểm này, đặc biệt là vào khoảng tháng 3 với ngày may mắn nhất trong năm là ngày 5 tháng 3. Từ tháng 6 đến tháng 12, mọi thứ có vẻ xuống dốc một chút, đặc biệt là về mặt tài chính. Vì thế, hãy chuẩn bị tốt tinh thần để có thể vượt qua thử thách trong giai đoạn này bạn nhé!")
+		} else if((a>=23 && a<=30 && b==11) || (a>=1 && a<=21 && b==12)) {
+			alert("Thật may mắn khi theo dự đoán 12 cung hoàng đạo năm 2022 cho thấy, Nhân Mã có thể gặp được một người truyền cảm hứng cho bạn để bạn có những thay đổi tích cực. Bạn trở nên yêu đời hơn, hoàn thiện bản thân mình hơn và luôn cố gắng để trở thành phiên bản tốt nhất của mình. Vì những người thuộc chòm sao Nhân Mã thường yêu thích tự do, sự mạo hiểm hơn là những lời cam kết, ràng buộc, hãy kết thân với những người yêu thích du lịch – điều này có thể mang đến cho bạn nhiều niềm vui trong năm tiếp theo. Vào thời điểm trăng tròn – ngày 18 tháng 3, Nhân Mã sẽ nhận được một tin vui, có thể là kết quả từ những điều mà bạn đã cố gắng trong quá khứ. Thật là một năm đáng để chờ đợi phải không nào?")
+		} else if((a>=22 && a<=31 && b==12) || (a>=1 && a<=19 && b==1)) {
+			alert("Theo dự đoán về cuộc sống của 12 cung hoàng đạo năm 2022 từ các nhà chiêm tinh học, năm sau sẽ là một năm cực kỳ quan trọng đối với Ma Kết. Trong năm sau, Ma Kết sẽ có những đề nghị hấp dẫn nhưng cũng đầy mạo hiểm và nhiều rủi ro liên quan đến dự án mới hoặc công việc mới. Tuy nhiên, bạn hoàn toàn có thể làm chủ được cuộc chơi nếu rèn luyện những kỹ năng cần thiết và bắt đầu học cách thương lượng mọi thứ. Một số ngày may mắn dựa theo dự đoán 12 cung hoàng đạo trong năm 2022 dành cho Ma Kết chính là: Ngày 4 tháng 2, khi sao Hỏa hợp với sao Mộc – dấu hiệu cho thấy cơ hội để thực hiện một kế hoạch đang ấp ủ và có khả năng cao thu về được lợi nhuận vượt mức mong đợi và ngày 25 tháng 9 – thời điểm bạn có thể nhận được nhiều lời đề nghị hấp dẫn. Đặc biệt, trong năm 2022, đời sống tình cảm của Ma Kết cũng sẽ vô cùng rực rỡ, có khả năng mang đến cho bạn một chuyện tình lãng mạn ngọt ngào.")
+		} else {
+			alert("Lỗi ngày hoặc tháng sinh rùi. Thử nhập lại xem.")
+		}
+		let c= eval(f1.lucky.value);
+		if(c==1) {
+			alert("Những người sinh ra trong nhóm doanh nhân số 1 thường trở thành những nhà lãnh đạo vĩ đại và vì lý do này, họ trở thành những người làm nghề tự do, tướng lĩnh, chỉ huy, CEO và nhà sản xuất vĩ đại. Bất kỳ con đường nào đưa họ vượt ra khỏi tầng lớp đông dân nói chung và tiến lên tuyến đầu của cuộc sống sẽ mang lại cho họ sự viên mãn cuối cùng. Đường đời số 1 thường có động lực, sự nhiệt tình, sáng tạo và truyền cảm hứng, và họ có xu hướng khỏe mạnh hơn về thể chất và tinh thần hơn nhiều người khác. Nhưng khát khao thành công mãnh liệt của họ có thể phải trả giá đắt – tinh thần chiến đấu của một số Đường đời 1 có thể khiến họ xa lánh những người khác hoặc khiến lòng tự trọng của họ giảm mạnh. Vì vậy, điều quan trọng là những người phải…")
+		} else if(c==2) {
+			alert("Điều quan trọng nhất đối với Số đường đời 2 là dùng linh hồn và sự sâu sắc của mình để kết nối mọi người, vì vậy những người sinh ra trong con số này có xu hướng là những cá nhân ngoại giao, nhạy cảm, những người làm trọng tài, hòa giải, luật sư tư vấn hoặc nhân viên xã hội. Số chủ đạo 2 có khả năng mang lại sự hài hòa và dễ dàng cho công việc nhóm. Điều rất quan trọng đối với những người có sự rung động này là phải ra ngoài và hòa nhập với xã hội, nếu không, họ có nguy cơ cảm thấy bị cô lập và bi quan, đồng thời dễ lâm và trầm cảm. Nhưng khuynh hướng đồng cảm của họ có nghĩa là hai người cũng có thể cảm thấy quá có trách nhiệm với…")
+		} else if(c==3) {
+			alert("Số 3 là những nghệ sĩ giải trí trên thế giới và hầu hết những người này thực sự là những nhạc sĩ, nhà văn, diễn viên, vũ công, diễn giả và chính trị gia tài năng.Số đường đời 3 là một trong những con đường có đặc trưng về vẻ đẹp, sự phấn khích, sự lập dị và nổi tiếng. Điều rất quan trọng đối với những người này là tìm ra những cách để thể hiện bản chất bên trong của họ và được thực sự công nhận (đằng sau mặt nạ và bên ngoài sân khấu) và đối với nhiều người, đây là thách thức thực sự. Một số người đi lạc khỏi con đường của họ, từ bỏ ước mơ và tài năng của mình và một số thậm chí trốn thoát vào…")
+		} else if(c==4) {
+			alert("Những người số 4 thường là trụ cột trong cộng đồng của họ. Những cá nhân này làm việc chăm chỉ, thực tế và đáng tin cậy, và do đó, họ trở thành những đối tác kinh doanh và hôn nhân tuyệt vời, giáo viên, người cố vấn. Bản chất tháo vát của họ có nghĩa là họ có thể tạo ra thứ gì đó từ con số không và thường được kêu gọi khi gặp khủng hoảng! Tuy nhiên, những người hy sinh quên mình thường đòi hỏi quá nhiều ở cả bản thân và người khác và có thể phát triển danh tiếng như những kẻ tử đạo hoặc bạo chúa: Ý chí và sự kiên trì của họ bị hiểu sai là tham lam và bướng bỉnh. Điều này hoàn toàn khiến Số 4 bối rối, những người thường có ý định…")
+		} else if(c==5) {
+			alert("Số 5 là những cá nhân ham học hỏi, những người coi kinh nghiệm thực tế là người thầy tốt nhất trong cuộc sống. Nhiều người sống trong sự rung động này là những người thông minh sâu sắc, có triết lý và tâm hồn sâu sắc, cũng như là những nhà giao tiếp tuyệt vời trở thành nhà nhân chủng học xã hội, nhà khảo cổ, giáo viên, nhà văn và nhà sử học xuất sắc. Tuy nhiên, số 5 có thể có xu hướng tự thu mình và không nhận thức được những tác động lan rộng hơn của những hành động ngáng chân và có vẻ liều lĩnh. Việc né tránh cam kết của nhiều cuộc hôn nhân cũng có thể ngăn cản…")
+		} else if(c==6) {
+			alert("Số 6 thường là những người làm hài lòng những người có nhu cầu cảm thấy không thể thiếu được người khác. Vì lý do này, nhiều người thường cống hiến cuộc sống của họ để trở thành người chăm sóc và cung cấp dịch vụ như bác sĩ, y tá, cố vấn, lính cứu hỏa và người tuân thủ luật pháp. Số 6 thường được đặc trưng bởi gia đình, tổ ấm, người nắm giữ không gian và nhân chứng. Điều rất quan trọng đối với những người này là tìm cách chăm sóc và nuôi dưỡng bản thân, vì họ có thể dễ dàng cho người khác quá nhiều đến mức cuối cùng họ lại cạn kiệt năng lượng. Đối với nhiều người, đây là thách thức thực sự. Trên thực tế, nghĩa vụ mà nhiều người số 6 cảm thấy đến mức họ có thể thấy mình bị nô lệ cho…")
+		} else if(c==7) {
+			alert("Số 7 là những người có trí tuệ và tính cách hiếu học và thường theo đuổi sự nghiệp học hành cao cấp. Những nhà phân tích sâu sắc này tạo nên những nhà toán học, kỹ sư, nhà phát minh, nhà khoa học và bác sĩ vĩ đại. Rung động số này là một rung động được đặc trưng bởi nhiệm vụ muốn biết nó hoạt động như thế nào và tất cả ý nghĩa của nó. Niềm yêu thích học tập của sinh viên đòi hỏi rất nhiều thời gian riêng tư để trau dồi kiến thức của họ. Đắm mình trong các thí nghiệm thực tế và đào tạo cũng rất quan trọng – những người trên Đường đời này thường cực kỳ…")
+		} else if(c==8) {
+			alert("Số 8 thường là những người tự tin, lôi cuốn và mục đích sống của họ thường xoay quanh việc học cách vận dụng tiền bạc và quyền lực mà không trở nên hư hỏng trong quá trình này. Họ trở thành những chủ đất, chủ doanh nghiệp, nhà xây dựng và chủ ngân hàng vĩ đại. Những người số 8 có tiềm năng to lớn trong việc cải thiện cuộc sống của hàng nghìn, có lẽ hàng triệu người, vì phạm vi ảnh hưởng của họ có thể rất lớn (thường mà họ không cần phải làm gì cả!) Nhưng đôi khi việc theo đuổi sự giàu có và của cải vật chất có thể trở thành…")
+		} else if(c==9) {
+			alert("Số 9 thường là những người có linh hồn già, những người có thể nhìn thấy bức tranh lớn hơn, và được định sẵn để đi trên con đường nhân đạo – họ muốn chữa lành thế giới và có làm điều đó. Những cá nhân này vị tha và kiên nhẫn, đáng tin cậy và được tôn vinh từ đầu đến cuối cuộc đời của họ, vì vậy những người này trở thành những nhà môi trường, giáo viên, nghệ sĩ, linh mục và người chữa bệnh tuyệt vời. Số 9 có một tính cách rất ổn định và có rất nhiều sự khôn ngoan để truyền đạt đến mức đôi khi chúng có thể bị coi là trịch thượng hoặc thậm chí rất kiểm soát. Vì vậy, điều quan trọng đối với những người có số này là…")
+		} else if(c==10) {
+			alert("10 là con số được cấu tạo từ hai thành tố là 1 và 0. Sự kết hợp này tạo ra nguồn năng lượng độc đáo riêng, phát huy điểm mạnh của từng yếu tố. Trong đó bao hàm sự năng lực ẩn dấu vô hạn và khởi đầu mới tươi sáng, tràn đầy hy vọng. Trong Thần số học, 19 và 28 mang lại nhiều may mắn và tốt đẹp cho người số 10. Trong đó, 19 là sự kết hợp giữa sinh và quyền, thể hiện quyền uy trường tồn, vĩnh cửu. Mặt khác 28 có ý nghĩa phát tài phát lộc, công danh sự nghiệp tươi sáng. Thần số học số 10 có 2 ngày may mắn trong tuần. Đó là thứ hai và chủ nhật. Những sự kiện, hoạt động diễn ra vào thời gian này sẽ thuận lợi và thu về nhiều thành công hơn. ")
+		} else if(c==11) {
+			alert("Số đường đời 11 có xu hướng dẫn đến một cuộc sống cực đoan, trải qua thử thách và khó khăn (cần thiết) để trưởng thành và khám phá trực giác. Những cá nhân tiên phong và có tầm nhìn xa của số 11 tạo nên những sinh viên tuyệt vời, nhà tâm linh học, nhà thần bí học, người chữa bệnh, giáo viên, nhà văn, nhạc sĩ và nghệ sĩ. Nhiều người trong số những số vua còn sống đó là “những người chữa lành vết thương”, những người tại một thời điểm nào đó trong cuộc đời của họ phải chịu một trải nghiệm tàn khốc đã đưa họ vào con đường tâm linh. Đây thường là sự khởi đầu của hành trình khám phá…")
+		} else {
+			alert("Lỗi rồi thử lại đi :((( Nhớ là trong khoảng 1 đến 11 nhé")
+		}
+		alert("Opps có vẻ như bạn Không muốn nhận lì xì từ mình nhưng lại muốn lì xì cho mình rồi vậy thì số tài khoản của mình đây nhé : \n 366202103 VP Bank nhé. Love you so much!!!")
+		alert("Mình là Phúc đây. Năm mới chúc bạn vui vẻ, hạnh phúc bên gia đình người thân và bạn bè nhé và đặc biệt chúc điều ước của bạn thành sự thật.\n Mình đang đơn côi nên bạn nào đang rảnh thì inb cho mình bớt sầu nhé")
+	}
+</script>
+</body>
+</html>
